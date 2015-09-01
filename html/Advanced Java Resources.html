@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<TITLE>Advanced Java Programming Resources</TITLE>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/bootstrap-grid.css" rel="stylesheet">
+	<link href="../css/bootstrap-stickyfooter.css" rel="stylesheet">
+
+</HEAD>
+<BODY>
+	<a name="top"></a> 
+    <div class="container">
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">The Learn Java Project</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="About Us.html">About Us</a></li>
+              <li><a href="Course Structure.html">Course Structure</a></li>
+              <li class="dropdown">
+                <a href="Resources" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+				  <li class="dropdown-header">Helpful Links</li>
+                  <li><a href="Java Resources.html">Beginner Resources</a></li>
+                  <li class="active"><a href="Advanced Java Resources.html">Advanced Resources</a></li>
+				  <li><a href="Glossary.html">Glossary</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Email Subscriptions</li>
+                  <li><a href="https://www.google.com/">Daily Subscription</a></li>
+                  <li><a href="https://www.google.com/">Weekly Subscription</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="Beginner Commandments.html">Beginner Commandments</a></li>
+              <li><a href="SignIn.html">Sign In</a></li>
+              <li><a href="SignUp.html">Sign Up</a></li>
+            </ul>
+			
+          </div><!--/.nav-collapse  -->
+        </div><!--/.container-fluid -->
+      </div>
+
+<h3>Advanced Java Programming Resources</h3>
+      <p>Reggie is the cutest <strong>babe in the world</strong>.</p>
+	  
+<H4>
+	<a HREF="#strings">Strings and Related Classes.</a><br>
+	<a HREF="#objects">The Object Class.</a><br>
+	<a HREF="#inner">Inner Classes.</a><br>
+	<a HREF="#threads">Threads.</a><br>
+	<a HREF="#collections">The Java Collections Framework.</a><br>
+	<a HREF="#perfIO">Performing I/O.</a><br>
+	<a HREF="#serialization">Serialization.</a><br>
+	<a HREF="#network">Java Networking.</a><br>
+	<a HREF="#rmi">RMI Fundamentals.</a><br>
+	<a HREF="#xml">XML Programming in Java.</a><br>
+	<a HREF="#enums">Enummerations.</a><br>
+	<a HREF="#junit">Junit.</a><br>
+	<a HREF="#misc">Additional Resources.</a><br>
+	<a HREF="#rad">An Introduction to RAD.</a><br>
+</H4>
+
+</br>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=strings>Strings and Related Classes.</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/tutorial/java/data/strings.html">Strings.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Oracle</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/tutorial/java/data/buffers.html">The StringBuilder Class.</A></td>
+      <td>Tag</td>
+    </tr>
+	<tr>
+      <td><A HREF="http://java.sun.com/docs/books/tutorial/i18n/index.html">Internationalization.</A></td>
+      <td>Tag</td>
+    </tr>
+	<tr>
+      <td><A HREF="http://java.sun.com/docs/books/tutorial/i18n/format/index.html">Formatting.</A></td>
+      <td>Tag</td>
+    </tr>
+	<tr>
+      <td><A HREF="http://www.unicode.org/standard/WhatIsUnicode.html">Unicode</A> and <A HREF="http://www.unicode.org/charts/">additional Unicode.</A></td>
+      <td>Tag</td>
+    </tr>
+	<tr>
+      <td><A HREF="http://java.sun.com/docs/books/tutorial/i18n/text/index.html">Working with Text.</A></td>
+      <td>Tag</td>
+    </tr>
+	<tr>
+      <td><A HREF="http://docs.oracle.com/javase/tutorial/essential/regex/index.html">Regular Expressions.</A></td>
+      <td>Tag</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=objects>Objects</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/tutorial/java/IandI/objectclass.html">Object as a Superclass.</A></td>
+      <td><button type="button" class="btn btn-xs btn-warning">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/Object.html">Class Object.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Class.html">Class Class.</A></td>
+      <td><button type="button" class="btn btn-xs btn-success">Miscellaneous</button></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=inner>Inner Classes</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html">Nested Classes.</A></td>
+      <td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/tutorial/java/javaOO/innerclasses.html">Inner Class Example.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html">Anonymous Classes.</A></td>
+      <td><button type="button" class="btn btn-xs btn-link">Miscellaneous</button></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<br>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=threads>Threads</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/tutorial/essential/concurrency/">Threads: Doing Two or More Tasks At Once.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html">Another Producer/Consumer Example.</A></td>
+      <td><button type="button" class="btn btn-xs btn-info">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/tutorial/essential/concurrency/pools.html">Thread Pools.</A></td>
+      <td><button type="button" class="btn btn-xs btn-success">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html">Class Thread.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://java.sun.com/j2se/1.5.0/docs/api/java/util/concurrent/Executor.html">
+Interface Executor.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=collections>The Java Collections Framework</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><A HREF="http://java.sun.com/j2se/1.5.0/docs/api/java/io/package-summary.html">Package java.io.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://java.sun.com/j2se/1.5.0/docs/api/java/util/package-summary.html">Package java.util.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://www.nist.gov/dads/">Dictionary of Algorithms and Data Structures.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://java.sun.com/docs/books/tutorial/collections/index.html">Collections.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/tutorial/collections/intro/">Introduction to the Collections Framework.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://java.sun.com/docs/books/tutorial/collections/implementations/index.html">General Purpose Implementations.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://java.sun.com/docs/books/tutorial/collections/algorithms/index.html">Collections Algorithms.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/6/docs/api/java/util/Enumeration.html">Enumeration Interface.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+    <tr>
+      <td><A HREF="http://docs.oracle.com/javase/6/docs/api/java/util/Iterator.html">Iterator Interface.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=perfIO>Performing I/O</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+  <tbody>
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/essential/io/index.html">I/O: Reading and Writing (but no 'rithmetic).</A> </td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/tutorial/i18n/text/stream.html">Character Streams and Byte Streams.</A></td>
+		 <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF=" http://www.science.uva.nl/ict/ossdocs/java/tutorial/java/nutsandbolts/inputOutput.html">The Standard I/O Streams.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/essential/io/scanfor.html">Scanning and Formatting.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.java-tips.org/java-se-tips/java.util/scanning-text-with-java.util.scanner-3.html">Scanning Text With java.util.Scanner.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.5.0/docs/guide/nio/index.html">New I/O APIs.</A></td>
+      <td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	</tbody>
+</TABLE>
+<br>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=serialization>Serialization</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+    <tbody>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/tutorial/jndi/objects/serial.html">Serializable Objects.</A></td>
+		<td><button type="button" class="btn btn-xs btn-success">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/7/docs/platform/serialization/spec/serialTOC.html">Java Object Serialization Specification.</A></td>
+		<td><button type="button" class="btn btn-xs btn-warning">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/6/docs/technotes/guides/serialization/examples/index.html">Object Serialization Examples.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/Serializable.html">Interface Serializable.</A></td>
+		<td><button type="button" class="btn btn-xs btn-default">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/Externalizable.html">Interface Externalizable.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	  </tbody>
+</TABLE>
+<br>
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=network>Java Networking</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+    <tbody>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/7/docs/technotes/guides/net/index.html">Java Networking Overview.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/networking/index.html">Custom Networking.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/essential/io/index.html"> I/O: Reading and Writing.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/tutorial/essential/io/objectstreams.html">Object Streams.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/7/docs/technotes/guides/net/index.html">Java\99 Networking.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr> 
+	</tbody>
+</TABLE>
+<br>
+
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=rmi>RMI Fundamentals.</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+    <tbody>
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/rmi/"> The RMI Tutorial.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+	<td><A HREF="http://java.sun.com/j2se/1.3/docs/tooldocs/solaris/rmiregistry.html">rmiregistry - The Java Remote Object Registry.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.oracle.com/technetwork/java/javase/tech/index-jsp-136424.html">Remote Method Invocation Home.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/6/docs/technotes/guides/rmi/hello/hello-world.html">Getting Started Using JavaTM RMI.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	  </tbody>
+</TABLE>
+<br>
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=xml>XML Programming in Java.</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+    <tbody>
+	<tr>
+		<td><A HREF="http://www.w3schools.com/xml/xml_whatis.asp">Introduction to XML.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/tutorial/jaxp/">Java API for XML Processing (JAXP).</A></td>
+		<td><button type="button" class="btn btn-xs btn-warning">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.w3.org/TR/xml11/">Extensible Markup Language (XML) 1.1.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.w3.org/TR/xml-names11/">Namespaces in XML 1.1.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/tutorial/jaxp/sax/">Simple API for XML (SAX).</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://xerces.apache.org/xerces-c/apiDocs-3/classSAXParser.html">SAXParser Class Reference.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.w3.org/TR/xslt20/">XSL Transformations (XSLT) Version 2.0.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.w3.org/DOM/">W3C Document Object Model (DOM).</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/tutorial/jaxp/dom/index.html">Document Object Model (DOM).</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/cd/E13203_01/tuxedo/tux81/xmlparser/classDOMParser.html">DOMParser Class Reference.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	  </tbody>
+</TABLE>
+<br>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=enums>Enumerations.</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+    <tbody>
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/java/javaOO/enum.html">Enum Types.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://docs.oracle.com/javase/1.5.0/docs/guide/language/enums.html">Enums.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+</tbody>
+</TABLE>
+<br>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=junit>Junit.</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+  <tbody>
+	<tr>
+		<td><A HREF="http://junit.org/">JUnit.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://junit.sourceforge.net/javadoc/">JUnit API Documentation.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://junit.sourceforge.net/doc/testinfected/testing.htm">JUnit Test Infected: Programmers Love Writing Tests.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://junit.sourceforge.net/doc/faq/faq.htm">JUnit FAQ.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://open.ncsu.edu/se/tutorials/junit/">Unit Testing in Eclipse Using JUnit.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.cavdar.net/2008/07/21/junit-4-in-60-seconds/">JUnit 4 in 60 Seconds.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.vogella.de/articles/JUnit/article.html">Unit testing with JUnit 4.x and EasyMock in Eclipse - Tutorial.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://en.wikipedia.org/wiki/Test-driven_development">Test-driven development.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.testdriven.com">testdriven.com.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://books.google.com/books?hl=en&id=gFgnde_vwMAC&dq=TDD&printsec=frontcover&source=web&ots=enFwppXslG&sig=BgJcvTCXYNE_X3b1VR5YI8kpYFg&sa=X&oi=book_result&resnum=5&ct=result">Test-driven Development: By Example.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.ibm.com/developerworks/rational/library/07/0102_woldemichael/index.html">Unit Testing J2EE platform components with JUnit and JUnitEE frameworks in IBM Rational Application Developer Version 6.0.2:  Part 1. Unit testing Java and EJB applications.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://eclipsekickstart.com/chapters/EclipseKickStart-ch06.pdf">High Grade Testing Using JUnit.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+</tbody>
+</TABLE>
+<br>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=misc>Additional Resources</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+  <tbody>
+	<tr>
+		<td><A HREF="http://www.oracle.com/technetwork/java/index-jsp-135888.html">Online Courses Tutorials.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.java2s.com/Tutorial/Java/CatalogJava.htm">Java Tutorial.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://download.oracle.com/javase/tutorial/deployment/applet/">Writing Applets.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/uiswing/painting/index.html">Working with Graphics.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/2d/index.html">2D Graphics.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/java/javaOO/classvars.html">Final variables.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://download.oracle.com/javase/tutorial/essential/concurrency/">Threads: Doing Two or More Tasks At Once.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.3/docs/api/">JavaTM 2 Platform, Standard Edition, v 1.3.1 API Specification.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.4.2/docs/api/">JavaTM 2 Platform, Standard Edition, v 1.4.2 API Specification.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.5.0/docs/api/">JavaTM 2 Platform, Standard Edition, v 5.0 API Specification.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://download.oracle.com/javase/6/docs/api/">Java\99 Platform, Standard Edition 6 API Specification </A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://download.oracle.com/javase/7/docs/api/">Java\99 Platform, Standard Edition 7 API Specification.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/i18n/index.html">Internationalization.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://download.oracle.com/javase/tutorial/essential/regex/">Regular Expressions.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/products/jndi/tutorial/trailmap.html">The JNDI Tutorial Trail Map.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/uiswing/index.html">Trail: Creating a GUI with JFC/Swing.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.5.0/docs/relnotes/features.html">
+	New Features and Enhancements J2SE 5.0.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.4.2/docs/relnotes/features.html">
+	New Features since J2SE 1.3 Platform.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.4.2/docs/guide/nio/">New I/O APIs.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.4.2/docs/guide/util/logging/index.html">Java Logging APIs.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.4.2/docs/guide/lang/assert.html">
+	Programming With Assertions.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.5.0/docs/guide/language/enums.html">
+	Typesafe enums.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.5.0/docs/guide/language/generics.html">Generics.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.5.0/docs/guide/language/autoboxing.html">
+	Autoboxing.</A></td>
+		<td><button type="button" class="btn btn-xs btn-danger">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.5.0/docs/guide/language/foreach.html">The For-Each Loop.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.5.0/docs/guide/language/varargs.html">Varargs.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.5.0/docs/guide/language/static-import.html">Static Import.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/docs/books/tutorial/essential/environment/properties.html">Properties.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://tech-read.com/2009/02/12/use-of-hashcode-and-equals/">equals() and hashCode().</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional/dp/0201633612/ref=pd_bxgy_b_img_b/180-5945470-8806946">Design Patterns: Elements of Reusable Object-Oriented Software.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://en.wikipedia.org/wiki/Design_pattern_(computer_science)">Design pattern.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.ibm.com/developerworks/opensource/library/os-ecvisual/">Build GUIs with the Eclipse Visual Editor project.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.ibm.com/developerworks/opensource/library/os-ecl-subversion/">How to use Subversion with Eclipse.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://java.sun.com/j2se/1.5.0/docs/relnotes/features.html">
+	New Features and Enhancements J2SE 5.0</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.oracle.com/technetwork/java/javase/features-141434.html">Java SE 6 Features and Enhancements.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.oracle.com/technetwork/java/javase/jdk7-relnotes-418459.html#changes">Java SE 7 Features and Enhancements.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+</tbody>
+</TABLE>
+<br>
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th class="col-md-2"><a name=rad>An Introduction to RAD.</a></th>
+      <th class="col-md-1">Tags</th>
+    </tr>
+  </thead>
+    <tbody>
+	<tr>
+		<td><A HREF="http://www-128.ibm.com/developerworks/rational/products/rad/">Rational Application Developer for WebSphere Software.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.ibm.com/developerworks/views/rational/libraryview.jsp?search_by=rational+application+development+certification+prep">Rational Application Development certification prep.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.ibm.com/developerworks/rational/library/05/r-3222/">Introduction to IBM Rational Web Developer 6.0.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www-128.ibm.com/developerworks/rational/library/06/1205_lloyd_rad/index.html">What's new in IBM Rational Application Developer V7.0.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.redbooks.ibm.com/redbooks/SG246449/wwhelp/wwhimpl/js/html/wwhelp.htm">Rational Application Developer V6 Programming Guide.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.redbooks.ibm.com/redbooks/SG247501/">Rational Application Developer V7 Programming Guide.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.redbooks.ibm.com/redbooks/SG247672/">Rational Application Developer V7.5 Programming Guide.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.redbooks.ibm.com/redbooks/SG247835/">Rational Application Developer for WebSphere Software V8 Programming Guide.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://www.eclipse.org/">Eclipse Integrated Development Environment.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://help.eclipse.org/help31/topic/org.eclipse.platform.doc.user/gettingStarted/qs-02a.htm">Eclipse Workbench User Guide.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/rtnlhelp/v6r0m0/index.jsp?topic=/com.ibm.java.rad.nav.doc/">General IBM WebSphere Help System RAD 6.0.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/index.jsp?topic=/com.ibm.rad.nav.doc/topics/rad_overview.html">General IBM WebSphere Help System RAD 7.0.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/com.ibm.java.nav.doc/topics/t_java_ide.html">Developing Java applications.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://junit.org/">JUnit.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/org.eclipse.jdt.doc.user/gettingStarted/qs-junit.htm">Writing and running JUnit tests.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://ant.apache.org/">The Apache Ant Project.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/com.ibm.etools.j2ee.doc/topics/tjsharing.html"> Sharing projects using Project Interchange.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/org.eclipse.jdt.doc.user/tasks/tasks-JREs.htm">Working with JREs.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/com.ibm.etools.rad.migration.doc/topics/tmgv6j2eewiz.html"> Migrating J2EE projects.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/com.ibm.etools.rad.migration.doc/topics/tmigratefrom51x.html">Migrating from WebSphere\AE Studio V5.1.x.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/org.eclipse.jdt.doc.user/reference/ref-115.htm">Refactoring.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/org.eclipse.jdt.doc.user/concepts/cdebugger.htm">Debugger.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/com.ibm.xtools.viz.j2se.doc/topics/tjavaviz.html">Visually developing Java\99 applications with UML diagrams.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/com.rational.clearcase.help/doc/CCGetSt.htm">Developing in a team environment.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/org.eclipse.platform.doc.user/concepts/concepts-26.htm">Team programming with CVS.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/org.eclipse.platform.doc.user/concepts/concepts-5.htm">Views.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	<tr>
+		<td><A HREF="http://publib.boulder.ibm.com/infocenter/iadthelp/v7r0/topic/org.eclipse.platform.doc.user/concepts/concepts-4.htm">Perspectives.</A></td>
+		<td><button type="button" class="btn btn-xs btn-primary">Miscellaneous</button></td>
+    </tr>
+	</tbody>
+	</TABLE>
+
+	<div class="footer">
+      <div class="container">
+        <p class="text-muted"><a href="#top">Back to Top</a></p>
+      </div>
+    </div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script> 
+</BODY>
+</HTML>
